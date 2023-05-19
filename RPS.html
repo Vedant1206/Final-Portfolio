@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Rock Paper Scissors</title>
+    <meta charset="utf-8">
+    <link rel = "stylesheet" href = "Styles/RPS.css">
+  </head>
+  <body>
+    <h1 class = "Heading">Rock Paper Scissors</h1>
+    <div class = "flexbox">
+        <button class = "RockButton"
+            onclick = "game('Rock');"> 
+
+            <img class = "image" src = "Source/rock.png">
+        </button>
+
+        <button class = "PaperButton" 
+                onclick = "game('Paper');"> 
+            <img class = "image" src = "Source/paper.png">
+        </button>
+
+        <button class = "ScissorButton" 
+                onclick = "game('Scissor');"> 
+            <img class = "image" src = "Source/scissor.png">
+        </button>
+    </div>
+    
+
+    
+    <p class = "gameResult"></p>
+    <p class = "moveMade"></p>
+    <p class = "overall-score"></p>
+
+    <button class = "resetButton"onclick = "reset();"> 
+      Reset Score
+    </button>
+
+    <script src="JS/RPS.js"></script>
+  </body>
+</html>

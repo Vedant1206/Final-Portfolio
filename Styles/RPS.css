@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+p{
+    color: azure;
+}
+.Heading{
+    color: azure;
+}
+.image{
+    height: 50px;
+    width: 50px;
+}
+.flexbox{
+    display: flex;
+    align-items: center;
+    max-width: 60%;
+}
+
+.ScissorButton,
+.PaperButton,
+.RockButton{
+    width : 150px;
+    height: 150px;
+    border-radius: 50%;
+    border-color: azure;
+    background-color: inherit;
+    border-width: 5px;
+    background-size: cover;
+    background-position: center;
+    margin-right: 25px;
+    
+}
+.resetButton{
+    color: white;
+    background-color: inherit;
+    width : 100px;
+    height: 100px;
+    border-radius: 50%;
+    border-color: azure;
+}
+
+.ScissorButton:hover,
+.PaperButton:hover,
+.RockButton:hover,
+.resetButton:hover{
+    border-color: red;
+}
